@@ -10,7 +10,16 @@ export function Header() {
                     <li className="hover:text-blue-950 hover:underline hover:decoration-red-500 hover:underline-offset-8 transition-all"><a href="#footer">Support</a></li>
                 </ul>
             </nav>
-            <button type="button" className="bg-blue-950 text-white font-bold text-lg py-2 px-8 rounded-3xl hover:bg-blue-800 transition-colors cursor-pointer">Contact us</button>
+            <a 
+                href="https://wa.me/5518996644674?text=Olá! Gostaria de saber mais sobre o massageador profissional."
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <button type="button" className="bg-blue-950 text-white font-bold text-lg py-2 px-8 rounded-3xl hover:bg-blue-800 transition-colors cursor-pointer">
+                    Contact us
+                </button>
+            </a>
+           
         </header>
     )
 }

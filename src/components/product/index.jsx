@@ -5,7 +5,6 @@ export function Product() {
         /* 1. Removido o max-w e mx-auto daqui para a borda ocupar 100% da largura */
         <section id='product' className="w-full py-12 md:py-20 border-b-10 border-red-800">
             
-            {/* 2. Criado um container interno com max-w-7xl e px-6 para o conteúdo não grudar nas bordas */}
             <div className="max-w-7xl mx-auto px-6 md:px-8 flex flex-col md:flex-row items-center gap-12">
                 
                 <div className="flex-1 space-y-6">
@@ -21,10 +20,19 @@ export function Product() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-6 pt-4">
-                        <button className="group bg-[#0f172a] text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-slate-800 transition-colors w-full sm:w-auto justify-center cursor-pointer">
-                            Comprar via WhatsApp
-                            <span className="transition-transform duration-300 group-hover:translate-x-2">→</span>
-                        </button>
+                        <a  
+                            href="https://s.shopee.com.br/6L1KQQWjd2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className="group bg-[#0f172a] text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-slate-800 transition-colors w-full sm:w-auto justify-center cursor-pointer">
+                                Comprar agora
+                            <span className="transition-transform duration-300 group-hover:translate-x-2">
+                                →
+                            </span>
+                            </button>
+                        </a>
+                        
                         
                         <div className="flex items-center gap-2 text-slate-700 font-medium">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">

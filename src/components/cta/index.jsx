@@ -18,13 +18,13 @@ export function CTA() {
 
           <div className="pt-4">
             <a
-              href="https://wa.me/5518996644674?text=Olá! Gostaria de saber mais sobre o massageador profissional."
+              href="https://s.shopee.com.br/6L1KQQWjd2"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-red-600 hover:bg-red-700 text-white px-10 py-5 rounded-full font-bold text-xl flex items-center gap-3 mx-auto transition-all hover:scale-105 shadow-lg shadow-red-600/20 w-fit justify-center cursor-pointer"
             >
               <MessageCircle className="w-6 h-6 fill-white" />
-              Falar com Especialista no WhatsApp
+              Obter produto agora
             </a>
           </div>
 
